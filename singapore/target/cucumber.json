@@ -1,0 +1,165 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Read and write data table in exceel sheet",
+        "description": "",
+        "id": "verify-the-no-of-awards-achieved-by-dbs;read-and-write-data-table-in-exceel-sheet",
+        "after": [
+          {
+            "result": {
+              "duration": 226326153,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Aftervaldiation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15795611608,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Launch the url\"https://www.dbs.com.sg/index/default.page\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.dbs.com.sg/index/default.page",
+                  "offset": 15
+                }
+              ],
+              "location": "DbsSg.launch_the_urlsomething(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6039478921,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on Learn More button",
+            "match": {
+              "location": "DbsSg.click_on_learn_more_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 556830434,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Scroll down and navigate to \"Singapore\" on the left panel",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Singapore",
+                  "offset": 29
+                }
+              ],
+              "location": "DbsSg.scroll_down_and_navigate_to_something_on_the_left_panel(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6755661956,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Read and Write the data table in excel sheet",
+            "match": {
+              "location": "DbsSg.read_and_write_the_data_table_in_excel_sheet()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6976776474,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Navigate to Aboutin the header tabs",
+            "match": {
+              "location": "DbsSg.navigate_to_aboutin_the_header_tabs()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3578530730,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Navigate to Who  we are tab",
+            "match": {
+              "location": "DbsSg.navigate_to_who_we_are_tab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8900121438,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Navigate to OurAwrds and Accolades",
+            "match": {
+              "location": "DbsSg.navigate_to_ourawrds_and_accolades()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 452795067,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Validate the total no of awards displayed is \"22\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "22",
+                  "offset": 46
+                }
+              ],
+              "location": "DbsSg.validate_the_total_no_of_awards_displayed_is_something(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 787468282,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Print in the cucumber report in the form of table",
+            "match": {
+              "location": "DbsSg.print_in_the_cucumber_report_in_the_form_of_table()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@DbsTest"
+          }
+        ]
+      }
+    ],
+    "name": "Verify the no of awards achieved by DBS",
+    "description": "",
+    "id": "verify-the-no-of-awards-achieved-by-dbs",
+    "keyword": "Feature",
+    "uri": "dbssg.feature"
+  }
+]

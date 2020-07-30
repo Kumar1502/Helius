@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="50.069601">
+<testcase classname="Verify the no of awards achieved by DBS" name="Read and write data table in exceel sheet" time="50.069601">
+<system-out><![CDATA[Given Launch the url"https://www.dbs.com.sg/index/default.page".............passed
+When Click on Learn More button.............................................passed
+Then Scroll down and navigate to "Singapore" on the left panel..............passed
+And Read and Write the data table in excel sheet............................passed
+And Navigate to Aboutin the header tabs.....................................passed
+And Navigate to Who  we are tab.............................................passed
+And Navigate to OurAwrds and Accolades......................................passed
+And Validate the total no of awards displayed is "22".......................passed
+And Print in the cucumber report in the form of table.......................passed
+]]></system-out>
+</testcase>
+</testsuite>
